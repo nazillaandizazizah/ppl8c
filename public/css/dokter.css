@@ -1,0 +1,190 @@
+/*ARTIKEL*/
+
+
+.cont {
+  border: 1px solid #dedede;
+  background-color: #f1f1f1;
+  border-radius: 5px;
+  padding: 10px;
+  margin: 10px 0;
+}
+.cont::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.cont img {
+  float: left;
+  max-width: 60px;
+  width: 100%;
+  margin-right: 20px;
+  border-radius: 50%;
+}
+
+.cont img.right {
+  float: right;
+  margin-left: 20px;
+  margin-right:0;
+}
+
+.time-right {
+  float: right;
+  color: #aaa;
+}
+
+.time-left {
+  float: left;
+  color: #999;
+}
+
+/*BUTTON*/
+body .button{
+    height: 30px;
+    width: 100px;
+    background-color: #4CAF50;
+    color: white;
+    border:0px;
+    cursor: pointer;
+    font-size: 15px;
+    font-family: sans-serif;
+    padding: 0;
+    border-radius: 5px;
+}
+body .button:hover{
+    background-color: #62d667;
+    color: white;
+}
+
+
+* {box-sizing: border-box}
+
+
+/* Style tab links */
+.tablink {
+  background-color: #93a0ad;
+  color: black;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  margin: auto;
+  padding: 14px 16px;
+  font-size: 17px;
+  width: 30%;
+}
+
+.tablink:hover {
+  background-color: #a4b2bf;
+  color: black;
+}
+
+/* Style the tab content (and add height:100% for full page content) */
+.tabcontent {
+  color: #f1f1f1;
+  display: none;
+  padding: 20px 20px;
+  height: 100%;
+}
+
+#Home {background-color: #e0cece;}
+#News {background-color: #cfe3d9;}
+
+h3{
+  color: #73879c;
+}
+
+p{
+  color: #73879c;
+}
+
+
+
+/*PROFIL*/
+
+/* The Modal (background) */
+.modal {
+  display: none; /* Hidden by default */
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Sit on top */
+  left: 0;
+  top: 0;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  overflow: auto; /* Enable scroll if needed */
+  background-color: rgb(0,0,0); /* Fallback color */
+  background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+  padding: 60px;
+}
+
+/* Modal Content/Box */
+.modal-content {
+  background-color: #fefefe;
+  margin: 5% auto 15% auto; /* 5% from the top, 15% from the bottom and centered */
+  border: 1px solid #888;
+  width: 80%; /* Could be more or less, depending on screen size */
+}
+
+/* Add Zoom Animation */
+.animate {
+  -webkit-animation: animatezoom 0.6s;
+  animation: animatezoom 0.6s
+}
+
+@-webkit-keyframes animatezoom {
+  from {-webkit-transform: scale(0)} 
+  to {-webkit-transform: scale(1)}
+}
+  
+@keyframes animatezoom {
+  from {transform: scale(0)} 
+  to {transform: scale(1)}
+}
+
+/* Full-width input fields */
+input[type=text], input[type=password], input[type=email] {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+}
+
+.konten {
+  padding: 16px;
+}
+
+
+/*BUTTON*/
+.alert {
+  padding: 20px;
+  background-color: #ededed;
+  color: gray;
+}
+
+.closebtn {
+  margin-left: 15px;
+  color: black;
+  font-weight: bold;
+  float: right;
+  font-size: 22px;
+  line-height: 20px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.closebtn:hover {
+  color: gray;
+}
+
+
+
+.center-cropped {
+  width: 100px;
+  height: 100px;
+  background-position: center center;
+  background-repeat: no-repeat;
+  border-radius: 50%;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
